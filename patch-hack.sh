@@ -7,7 +7,7 @@
 # ---------------------------------------------------
 
 # 1. Set the path to the downloaded Hack repo here first
-HACK_PATH=""
+[[ -z "${HACK_PATH}" ]] && HACK_PATH=""
 
 # 2. List your alternate glyphs here
 declare -a alternates=(
